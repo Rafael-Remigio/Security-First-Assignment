@@ -1,0 +1,17 @@
+Wow I sure do love eCorp :)</div>
+<script>
+
+    function getData(form) {
+        var formData = new FormData(form);
+
+        alert(JSON.stringify(Object.fromEntries(formData)));
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("login_form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            getData(e.target);
+        });
+    });
+    
+</script>

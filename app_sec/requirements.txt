@@ -1,0 +1,5 @@
+Flask==2.2.2
+flask-sqlalchemy
+flask-login
+fpdf
+flask-bcrypt
